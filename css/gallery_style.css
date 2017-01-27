@@ -1,0 +1,56 @@
+/* 
+    Author: Sidhartha Mishra
+*/
+
+*{
+    box-sizing:border-box;
+}
+.pic{
+    margin:10px;
+    float:left;
+    height:300px;
+    max-width:300px;
+    border:3px solid #f2f2f2;
+    background-color:#1966b3;
+    opacity:.95;
+    box-shadow:10px 10px 7px #777777;
+    border-radius:5px;
+    position:relative;
+    z-index:0;
+}
+.pic img{
+    height:80%;
+    width:100%;
+}
+.pic:hover{
+    border:3px solid #595959;
+    font-size:40px;
+    opacity:1;
+
+    /*Scale on Hover*/
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+
+    /*Rotate on Hover*/
+    -webkit-transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+    -o-transform:rotate(-2deg);
+    transform:rotate(-2deg);
+
+}
+p{
+    color:#ffffff;
+    text-align:center;
+    font-weight:bold;
+    font-family:sans-serif, serif;
+    font-size:16px;
+}
+about{
+    background-color:#1966b3;
+}
+div.pic-container{
+    width:auto;
+    margin:auto;
+}
